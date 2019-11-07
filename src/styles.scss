@@ -1,0 +1,52 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	font-family: sans-serif;
+	background-color: gainsboro;
+}
+
+.card {
+	width: 600px;
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid darkgray;
+	background-color: ghostwhite;
+}
+
+.card__content {
+	padding: 10px;
+}
+
+.card__answer {
+	padding-top: 10px;
+	font-size: 16px;
+	font-family: monospace;
+}
+
+.button {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #2f2f2f;
+	color: white;
+	font-size: 16px;
+	cursor: default;
+}
+
+.form_section {
+	width: 600px;
+
+	margin: 20px;
+	border: 1px solid black;
+}
+
+.label {
+	font-size: 20px;
+}
